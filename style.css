@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(https://www.xtrafondos.com/descargar.php?id=3547&resolucion=1920x1080;);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  display: flex;
+}
+
+.button {
+  display: block;
+  position: absolute;
+  margin: 0% auto;
+  background: rgb(230, 172, 37);
+  color: white;
+  border: 0;
+  cursor: pointer;
+  bottom: 70%;
+  right: 45%;
+  padding: 15px 45px;
+  border-radius: 50px;
+  text-align: center;
+}
+.button:hover {
+  background: rgb(237, 197, 102);
+}
+.popup-wrapper {
+  background: rgba(0, 0, 0, 0.188);
+  position: fixed;
+  top: 0;
+  left: 0.5%;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.popup {
+  left: 30%;
+  font-family: arial;
+  text-align: center;
+  width: 100%;
+  max-width: 450px;
+  margin: 3%;
+  padding: 20px;
+  background: wheat;
+  height: 100%;
+  max-height: 550px;
+  border-radius: 15px;
+  position: relative;
+}
+.pj {
+  width: 210px;
+  height: 275px;
+  margin-top: 20%;
+  align-items: center;
+  border-radius: 25px;
+}
+.escudo {
+  position: absolute;
+  width: 110px;
+  height: 120px;
+  left: 38%;
+  top: -7%;
+  align-items: center;
+  border-radius: 50%;
+}
+.popup-close {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+  background: rgba(249, 9, 57, 0.64);
+  padding: 5px 10px;
+  border-radius: 100%;
+  color: white;
+}
+.popup-close:hover {
+  background: rgba(236, 58, 94, 0.64);
+  padding: 6px 11px;
+}
+
+.popup-content {
+  font-family: "Original Surfer", cursive;
+  font-size: 18px;
+  display: block;
+  max-width: 410px;
+  height: 400px;
+}
+
+.new-pj {
+  display: block;
+  width: 50%;
+  position: relative;
+  margin: 0% auto;
+  background: rgb(230, 172, 37);
+  color: white;
+  border: 0;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 50px;
+  text-align: center;
+  top: 21%;
+}
+.new-pj:hover {
+  background: rgb(237, 197, 102);
+}
+h2 {
+  display: inline;
+}
+.titulo {
+  margin-bottom: 5%;
+}
+.titulo:hover,
+#casa:hover {
+  background: rgba(0, 0, 0, 0.281);
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 5% auto;
+  background-color: rgba(112, 108, 108, 0.671);
+  color: white;
+  padding: 0.5%;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+.head::before {
+  content: "Draco dormiens nunquam titillandus.";
+}
+.head:hover::after {
+  content: "Nunca le hagas cosquillas a un dragón dormido.";
+}
+.head:hover::before {
+  content: "";
+}
